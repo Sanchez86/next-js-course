@@ -1,12 +1,14 @@
 // import styles from './page.module.css';
 import type { Metadata } from 'next';
-import { Button, HTag, PTag, Rating, Tag } from './components';
+import { Button, HTag, PTag, Rating, Tag } from '../components';
+import { RatingWithState } from '../components/RatingWithState';
 
 export const metadata: Metadata = {
   description: 'Some description text 2',
 }
 
 export default function Home() {
+  
   return (
     <main>
       <HTag tag='h1'>Some Text</HTag>
@@ -32,7 +34,7 @@ export default function Home() {
       <Tag size={'m'} color={'black'}>med</Tag>
       <hr />
 
-      <Rating rating={4} />
+      <RatingWithState />
     </main>
   )
 }

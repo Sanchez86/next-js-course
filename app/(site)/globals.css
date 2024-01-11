@@ -36,6 +36,9 @@
   --callout-border-rgb: 172, 175, 176;
   --card-rgb: 180, 185, 188;
   --card-border-rgb: 131, 134, 135;
+
+  --color-prime: #7653FC;
+  ;
 }
 
 @media (prefers-color-scheme: dark) {
@@ -101,3 +104,15 @@ a {
     color-scheme: dark;
   }
 } */
+
+nav {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin: 15px;
+  border-bottom: 1px solid var(--color-prime);
+}
+
+nav a{
+  margin: 5px;
+}

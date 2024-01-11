@@ -1,0 +1,11 @@
+.star {
+    fill: #E2E2E2;
+}
+
+.filled {
+    fill: var(--color-prime);
+}
+
+.editable {
+    cursor: pointer;
+}
