@@ -1,0 +1,36 @@
+.tag {
+    display: inline-block;
+    padding: 5px 10px;
+    border: 1px solid purple;
+    cursor: pointer;
+    margin: 5px;
+    border-radius: 5px;
+}
+
+.s {
+    font-size: 12px;
+}
+
+.m {
+    font-size: 16px;
+}
+
+.red {
+    background-color: red;
+    color: white;
+}
+
+.green {
+    background-color: green;
+    color: white;
+}
+
+.gray {
+    background-color: gray;
+    color: white;
+}
+
+.black {
+    background-color: black;
+    color: white;
+}
