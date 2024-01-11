@@ -1,20 +1,27 @@
-import type { Metadata } from 'next';
+"use client"
+
+//import type { Metadata } from 'next';
 import Head from 'next/head';
 import { Inter } from 'next/font/google';
 import './globals.css';
+import { useEffect } from 'react';
 
 const inter = Inter({ subsets: ['latin'] })
 
-export const metadata: Metadata = {
-  title: 'NextJS First Layout',
-  description: 'Some description texst',
-}
+// export const metadata: Metadata = {
+//   title: 'NextJS First Layout',
+//   description: 'Some description texst',
+// }
 
 export default function RootLayout({
   children,
 }: {
   children: React.ReactNode
 }) {
+  useEffect(() => {
+    console.log('other');
+  }, []);
+  
   return (
     <html lang="en">
       <Head>
